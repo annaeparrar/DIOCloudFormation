@@ -51,8 +51,6 @@ A continuación, se listan los puntos clave de mi experiencia con AWS CloudForma
 
 ### 3. Desafíos Encontrados y Soluciones
 
-> *\[Aquí puedes añadir un punto de dolor que tuviste, como un error de sintaxis YAML, un problema de dependencias entre recursos, o un error de IAM, y cómo lo resolviste. Ejemplo: ]*
->
 > * **Desafío:** Inicialmente, mi instancia EC2 fallaba al iniciarse.
 > * **Solución:** Descubrí que el *Security Group* no estaba referenciado correctamente en la propiedad `SecurityGroupIds` de la instancia. Corregí la referencia utilizando `!Ref [LogicalResourceName]`.
 
