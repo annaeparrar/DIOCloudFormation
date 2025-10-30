@@ -52,7 +52,7 @@ A continuación, se listan los puntos clave de mi experiencia con AWS CloudForma
 ### 3. Desafíos Encontrados y Soluciones
 
 > * **Desafío:** Inicialmente, mi instancia EC2 fallaba al iniciarse.
-> * **Solución:** Descubrí que el *Security Group* no estaba referenciado correctamente en la propiedad `SecurityGroupIds` de la instancia. Corregí la referencia utilizando `!Ref [LogicalResourceName]`.
+> * **Solución:** Descubrí que el *Security Group* no estaba referenciado correctamente en la propiedad `SecurityGroupIds` de la instancia.
 
 ---
 
